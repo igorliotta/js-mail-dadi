@@ -1,3 +1,19 @@
+// # Gioco dei dadi
+
+// - Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
+//    - Tramite la funzione math random generare un numero random per l'utente (magari all'interno di un eventListner(?)).
+//    - Tramite la funzione math random generare un secondo numero random per il computer (magari all'interno di un eventListner(?)).
+
+// - Stabilire il vincitore, in base a chi fa il punteggio più alto.
+//    - Stabilire quali tra i due numeri e più alto.
+//       - SE il numero utente = numero computer:
+//          - Pareggio.
+//       - ALTRIMENTI SE il numero utente è > di numero computer:
+//          - L'utente vince.
+//       - ALTRIMENTI SE il numero utente è < di numero computer:
+//          - Il computer vince.
+
+
 console.log('Gioco dei dadi')
 
 btnDOMElement = document.getElementById('btn');
