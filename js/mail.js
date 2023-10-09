@@ -1,4 +1,4 @@
-console.log('Ciao amici')
+console.log('Email valida o non valida')
 
 const emailsArray = ['igorliotta@icloud.com', 'jeffrey.dammer@virgilio.it', 'dilettaleotta@gmail.com', 'alessandro.delpiero@gmail.com', 'papafrancesco@icolud.com'];
 console.log(emailsArray);
