@@ -46,7 +46,7 @@ const userEmail = prompt("Scrivi qui la tua email");
 let ismailFoud = false;
 
 btnDOMElement = document.getElementById('btn');
-console.log(btnDOMElement);
+// console.log(btnDOMElement);
 
  for (i = 0; i < emailsArray.length; i++) {
         if (userEmail === emailsArray[0] || userEmail === emailsArray[1] || userEmail === emailsArray[2] || userEmail === emailsArray[3] || userEmail === emailsArray[4]) {
